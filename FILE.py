@@ -9,4 +9,7 @@ os.system('git pull --quiet 2>/dev/null')
 bit = platform.architecture()[0]
 if bit == '64bit':
  print('\033[1;91m[\033[1;97m✓\033[1;91m] \033[1;97m64Bit Found')
- import FILE64
+ import FILE
+    # كود
+elif bit == '32bit':  # ✅
+    # كود
